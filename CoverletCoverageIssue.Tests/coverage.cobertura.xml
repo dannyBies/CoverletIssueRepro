@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.5675" branch-rate="0.25" version="1.9" timestamp="1586336463" lines-covered="21" lines-valid="37" branches-covered="3" branches-valid="12">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="CoverletCoverageIssue" line-rate="0.5675" branch-rate="0.25" complexity="33">
+      <classes>
+        <class name="CoverletCoverageIssue.Blog" filename="Users\Danny\source\repos\CoverletCoverageIssue\Program.cs" line-rate="0.11109999999999999" branch-rate="1" complexity="9">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CreatedByUserId" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CreatedBy" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_HasExpired" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="16" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_SiteId" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="18" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Site" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_RegionId" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="20" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Region" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="21" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="2" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="CoverletCoverageIssue.Site" filename="Users\Danny\source\repos\CoverletCoverageIssue\Program.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="26" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EndedOn" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="27" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="CoverletCoverageIssue.Region" filename="Users\Danny\source\repos\CoverletCoverageIssue\Program.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="32" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EndedOn" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="33" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="CoverletCoverageIssue.User" filename="Users\Danny\source\repos\CoverletCoverageIssue\Program.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="38" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="39" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="CoverletCoverageIssue.BloggingContext" filename="Users\Danny\source\repos\CoverletCoverageIssue\Program.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Blogs" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="48" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;CoverletCoverageIssue.BloggingContext&gt;)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="48" hits="3" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CoverletCoverageIssue.Program" filename="Users\Danny\source\repos\CoverletCoverageIssue\Program.cs" line-rate="0.75" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="CreateQuery" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="86" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(CoverletCoverageIssue.BloggingContext)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="60" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="86" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CoverletCoverageIssue.Program/&lt;&gt;c" filename="Users\Danny\source\repos\CoverletCoverageIssue\Program.cs" line-rate="1" branch-rate="0.25" complexity="12">
+          <methods>
+            <method name="&lt;GetBlogs&gt;b__3_0" signature="(CoverletCoverageIssue.Blog)" line-rate="1" branch-rate="0.25">
+              <lines>
+                <line number="73" hits="2" branch="True" condition-coverage="25% (3/12)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="50%" />
+                    <condition number="14" type="jump" coverage="0%" />
+                    <condition number="22" type="jump" coverage="50%" />
+                    <condition number="43" type="jump" coverage="50%" />
+                    <condition number="51" type="jump" coverage="0%" />
+                    <condition number="59" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="74" hits="2" branch="False" />
+                <line number="75" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="73" hits="2" branch="True" condition-coverage="25% (3/12)">
+              <conditions>
+                <condition number="6" type="jump" coverage="50%" />
+                <condition number="14" type="jump" coverage="0%" />
+                <condition number="22" type="jump" coverage="50%" />
+                <condition number="43" type="jump" coverage="50%" />
+                <condition number="51" type="jump" coverage="0%" />
+                <condition number="59" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="74" hits="2" branch="False" />
+            <line number="75" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="CoverletCoverageIssue.Program/&lt;GetBlogs&gt;d__3" filename="Users\Danny\source\repos\CoverletCoverageIssue\Program.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
+                <line number="78" hits="1" branch="False" />
+                <line number="79" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="78" hits="1" branch="False" />
+            <line number="79" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
